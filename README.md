@@ -1,25 +1,40 @@
-# Distributed_Data_Analytics_Labs
+# Distributed_Data_Analytics_Projects
 
-## This repository includes implementation of different machine learning algorithms on distributed programming enviroments like MPI,Spark,Pytorch etc.
+This repository includes implementations of various machine learning algorithms in distributed programming environments like MPI, Apache Spark, PyTorch, and more. These projects demonstrate the use of distributed systems for data analytics, machine learning, and deep learning.
 
-* Exercise 0 : Linear Regression through exact form and Pandas and Numpy exercises.
+## Projects
 
-* Exercise 1 : Parallel matrix operations like multiplication, addition and average with MPI
+- **Linear Regression with Exact Form & Data Preprocessing**: Linear Regression through exact form using Pandas and Numpy exercises.
+  
+- **Parallel Matrix Operations with MPI**: Parallel matrix operations such as multiplication, addition, and average calculation using MPI.
 
-* Exercise 2 : Data cleaning ,text tokenization, calculation of term frequency and term Frequency Inverse Document Frequency in a corpus of 20_news_group dataset using MPI.
+- **Text Cleaning & Tokenization with MPI**: Data cleaning, text tokenization, calculation of Term Frequency (TF) and Term Frequency-Inverse Document Frequency (TF-IDF) on the 20 Newsgroups dataset using MPI.
 
-* Exercise 3 :Implementing K-mean clustering algorithm on 20_news_group dataset's TF-IDF calculated in execerise 2 using MPI.
+- **K-Means Clustering on Text Data with MPI**: Implementing the K-Means clustering algorithm on the 20 Newsgroups dataset’s TF-IDF features calculated in Exercise 3 using MPI.
 
-* Exercise 4 :Implementing a supervised machine learning algorithm in a distributed setting using MPI (mpi4py). Picking Linear Regression model and train it using a parallel stochastic gradient algorithm
+- **Distributed Linear Regression with MPI**: Implementing a supervised machine learning algorithm (Linear Regression) in a distributed setting using MPI (mpi4py). Training with a parallel stochastic gradient descent algorithm.
 
-* Exercise 5 : Setting up Hadoop and running basic hadoop operation.Analysis of Airport efficiency and Movie dataset with Map Reduce.
+- **Hadoop Setup & Analysis with MapReduce**: Setting up Hadoop and performing basic Hadoop operations. Analyzing airport efficiency and movie dataset using MapReduce.
 
-* Exercise 6 : Pytorch Network analysis on image classification task on CIFAR10 and MNIST dataset.Implementing custom task on MNIST dataset for regression.
+- **Image Classification with PyTorch**: Performing network analysis on image classification tasks with PyTorch on the CIFAR-10 and MNIST datasets. Implementing a custom regression task on the MNIST dataset.
 
-* Exercise 7 : Implementing image classification using PYtorch and also analyzing effects of normalization, dropout and regularization with augmentation.
+- **Advanced Image Classification with PyTorch**: Implementing image classification using PyTorch and analyzing the effects of normalization, dropout, regularization, and data augmentation.
 
-* Exercise 8 : Apache Spark basic operations and cleaning on dataframes.Manipulating Recommender Dataset with Apache Spark and analysis.
+- **Apache Spark Data Operations & Recommender Systems**: Basic operations on dataframes with Apache Spark. Manipulating and analyzing a recommender dataset using Apache Spark.
 
-* Exercise 9 :Implementing Parallel Stochastic Gradient Descent on pytorch using MPI framework and parallel processing libraries.
+- **Parallel Stochastic Gradient Descent with PyTorch & MPI**: Implementing Parallel Stochastic Gradient Descent on PyTorch using the MPI framework and parallel processing libraries.
 
+## Requirements
 
+- Python 3.x
+- PyTorch
+- Apache Spark
+- MPI (mpi4py)
+- Hadoop
+- Other project-specific libraries (see individual project folders for details)
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/Distributed_Data_Analytics_Projects.git
